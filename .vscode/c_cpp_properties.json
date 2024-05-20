@@ -1,0 +1,76 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "C:/Users/mobuc/OneDrive/Documents/PlatformIO/Projects/240505-121023-esp8266-rtos-sdk-blink/src",
+                "C:/Users/mobuc/OneDrive/Documents/PlatformIO/Projects/240505-121023-esp8266-rtos-sdk-blink/.pio/libdeps/esp_wroom_02/C-STRUCTURE",
+                "C:/Users/mobuc/OneDrive/Documents/PlatformIO/Projects/240505-121023-esp8266-rtos-sdk-blink/include",
+                "C:/Users/mobuc/OneDrive/Documents/PlatformIO/Projects/240505-121023-esp8266-rtos-sdk-blink/components/esp8266/include",
+                "C:/Users/mobuc/OneDrive/Documents/PlatformIO/Projects/240505-121023-esp8266-rtos-sdk-blink/components/esp_common/include",
+                "C:/Users/mobuc/OneDrive/Documents/PlatformIO/Projects/240505-121023-esp8266-rtos-sdk-blink/components/log/include",
+                "C:/Users/mobuc/.platformio/packages/framework-esp8266-rtos-sdk/include",
+                "C:/Users/mobuc/.platformio/packages/framework-esp8266-rtos-sdk/extra_include",
+                "C:/Users/mobuc/.platformio/packages/framework-esp8266-rtos-sdk/driver_lib/include",
+                "C:/Users/mobuc/.platformio/packages/framework-esp8266-rtos-sdk/include/espressif",
+                "C:/Users/mobuc/.platformio/packages/framework-esp8266-rtos-sdk/include/lwip",
+                "C:/Users/mobuc/.platformio/packages/framework-esp8266-rtos-sdk/include/lwip/ipv4",
+                "C:/Users/mobuc/.platformio/packages/framework-esp8266-rtos-sdk/include/lwip/ipv6",
+                "C:/Users/mobuc/.platformio/packages/framework-esp8266-rtos-sdk/include/nopoll",
+                "C:/Users/mobuc/.platformio/packages/framework-esp8266-rtos-sdk/include/spiffs",
+                "C:/Users/mobuc/.platformio/packages/framework-esp8266-rtos-sdk/include/ssl",
+                "C:/Users/mobuc/.platformio/packages/framework-esp8266-rtos-sdk/include/json",
+                "C:/Users/mobuc/.platformio/packages/framework-esp8266-rtos-sdk/include/openssl",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "C:/Users/mobuc/OneDrive/Documents/PlatformIO/Projects/240505-121023-esp8266-rtos-sdk-blink/src",
+                    "C:/Users/mobuc/OneDrive/Documents/PlatformIO/Projects/240505-121023-esp8266-rtos-sdk-blink/.pio/libdeps/esp_wroom_02/C-STRUCTURE",
+                    "C:/Users/mobuc/OneDrive/Documents/PlatformIO/Projects/240505-121023-esp8266-rtos-sdk-blink/include",
+                    "C:/Users/mobuc/OneDrive/Documents/PlatformIO/Projects/240505-121023-esp8266-rtos-sdk-blink/components/esp8266/include",
+                    "C:/Users/mobuc/OneDrive/Documents/PlatformIO/Projects/240505-121023-esp8266-rtos-sdk-blink/components/esp_common/include",
+                    "C:/Users/mobuc/OneDrive/Documents/PlatformIO/Projects/240505-121023-esp8266-rtos-sdk-blink/components/log/include",
+                    "C:/Users/mobuc/.platformio/packages/framework-esp8266-rtos-sdk/include",
+                    "C:/Users/mobuc/.platformio/packages/framework-esp8266-rtos-sdk/extra_include",
+                    "C:/Users/mobuc/.platformio/packages/framework-esp8266-rtos-sdk/driver_lib/include",
+                    "C:/Users/mobuc/.platformio/packages/framework-esp8266-rtos-sdk/include/espressif",
+                    "C:/Users/mobuc/.platformio/packages/framework-esp8266-rtos-sdk/include/lwip",
+                    "C:/Users/mobuc/.platformio/packages/framework-esp8266-rtos-sdk/include/lwip/ipv4",
+                    "C:/Users/mobuc/.platformio/packages/framework-esp8266-rtos-sdk/include/lwip/ipv6",
+                    "C:/Users/mobuc/.platformio/packages/framework-esp8266-rtos-sdk/include/nopoll",
+                    "C:/Users/mobuc/.platformio/packages/framework-esp8266-rtos-sdk/include/spiffs",
+                    "C:/Users/mobuc/.platformio/packages/framework-esp8266-rtos-sdk/include/ssl",
+                    "C:/Users/mobuc/.platformio/packages/framework-esp8266-rtos-sdk/include/json",
+                    "C:/Users/mobuc/.platformio/packages/framework-esp8266-rtos-sdk/include/openssl",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=60115",
+                "ESP8266",
+                "ARDUINO_ARCH_ESP8266",
+                "ARDUINO_ESP8266_ESP_WROOM_02",
+                "F_CPU=80000000L",
+                "__ets__",
+                "ICACHE_FLASH",
+                ""
+            ],
+            "cStandard": "gnu99",
+            "cppStandard": "c++11",
+            "compilerPath": "C:/Users/mobuc/.platformio/packages/toolchain-xtensa@1.40802.0/bin/xtensa-lx106-elf-gcc.exe",
+            "compilerArgs": [
+                "-mlongcalls",
+                "-mtext-section-literals",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
