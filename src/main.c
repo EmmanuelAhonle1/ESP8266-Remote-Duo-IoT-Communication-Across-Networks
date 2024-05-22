@@ -6,7 +6,7 @@
 #include "hw_timer.h"
 #include "uart.h"
 #include "wifi.h"
-
+#include "landing_page.h"
 /******************************************************************************
  * FunctionName : user_rf_cal_sector_set
  * Description  : SDK just reversed 4 sectors, used for rf init data and paramters.
@@ -74,7 +74,10 @@ void hwTimerInterrupt(void)
     gpio16_output_set(ledOn);
     ledOn = !ledOn;
     triggered = !triggered;
-    check_wifi_status();
+    if (ledOn)
+    {
+        check_wifi_status();
+    }
 }
 
 void init_UART0(void)
@@ -112,6 +115,7 @@ void setup(void)
     init_UART0();
 
     wifi_connect();
+    http_server_task();
 }
 
 void task_blink(void *ignore)
@@ -133,5 +137,7 @@ void task_blink(void *ignore)
  *******************************************************************************/
 void user_init(void)
 {
+    printf("SDK version:%s\n", system_get_sdk_version());
+
     xTaskCreate(&task_blink, "startup", 2048, NULL, 1, NULL);
 }
