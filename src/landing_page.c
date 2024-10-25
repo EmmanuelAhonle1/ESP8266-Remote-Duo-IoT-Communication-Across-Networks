@@ -7,6 +7,7 @@
 #include "lwip/sys.h"
 #include "lwip/netdb.h"
 #include "lwip/api.h"
+#include "c_types.h"
 
 void http_server_netconn_serve(struct netconn *conn)
 {

@@ -10,8 +10,7 @@
             "includePath": [
                 "C:/Users/mobuc/OneDrive/Documents/PlatformIO/Projects/240505-121023-esp8266-rtos-sdk-blink/include",
                 "C:/Users/mobuc/OneDrive/Documents/PlatformIO/Projects/240505-121023-esp8266-rtos-sdk-blink/src",
-                "C:/Users/mobuc/OneDrive/Documents/PlatformIO/Projects/240505-121023-esp8266-rtos-sdk-blink/.pio/libdeps/esp_wroom_02/ESP8266-RTOS-SSD1306",
-                "C:/Users/mobuc/OneDrive/Documents/PlatformIO/Projects/240505-121023-esp8266-rtos-sdk-blink/.pio/libdeps/esp_wroom_02/ESPAsync_WiFiManager/src",
+                "C:/Users/mobuc/OneDrive/Documents/PlatformIO/Projects/240505-121023-esp8266-rtos-sdk-blink/.pio/libdeps/stable/ESPAsync_WiFiManager/src",
                 "C:/Users/mobuc/.platformio/packages/framework-esp8266-rtos-sdk/include",
                 "C:/Users/mobuc/.platformio/packages/framework-esp8266-rtos-sdk/extra_include",
                 "C:/Users/mobuc/.platformio/packages/framework-esp8266-rtos-sdk/driver_lib/include",
@@ -31,8 +30,7 @@
                 "path": [
                     "C:/Users/mobuc/OneDrive/Documents/PlatformIO/Projects/240505-121023-esp8266-rtos-sdk-blink/include",
                     "C:/Users/mobuc/OneDrive/Documents/PlatformIO/Projects/240505-121023-esp8266-rtos-sdk-blink/src",
-                    "C:/Users/mobuc/OneDrive/Documents/PlatformIO/Projects/240505-121023-esp8266-rtos-sdk-blink/.pio/libdeps/esp_wroom_02/ESP8266-RTOS-SSD1306",
-                    "C:/Users/mobuc/OneDrive/Documents/PlatformIO/Projects/240505-121023-esp8266-rtos-sdk-blink/.pio/libdeps/esp_wroom_02/ESPAsync_WiFiManager/src",
+                    "C:/Users/mobuc/OneDrive/Documents/PlatformIO/Projects/240505-121023-esp8266-rtos-sdk-blink/.pio/libdeps/stable/ESPAsync_WiFiManager/src",
                     "C:/Users/mobuc/.platformio/packages/framework-esp8266-rtos-sdk/include",
                     "C:/Users/mobuc/.platformio/packages/framework-esp8266-rtos-sdk/extra_include",
                     "C:/Users/mobuc/.platformio/packages/framework-esp8266-rtos-sdk/driver_lib/include",
@@ -49,11 +47,10 @@
                 ]
             },
             "defines": [
-                "PLATFORMIO=60115",
+                "PLATFORMIO=60116",
                 "ESP8266",
                 "ARDUINO_ARCH_ESP8266",
                 "ARDUINO_ESP8266_NODEMCU",
-                "SSD1306_I2C_ADDRESS=0x3C",
                 "F_CPU=80000000L",
                 "__ets__",
                 "ICACHE_FLASH",
